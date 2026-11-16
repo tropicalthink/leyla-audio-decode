@@ -1,0 +1,16 @@
+leyla-audio-decode - DTS and TrueHD/MLP decoders for the Leyla web client,
+built from FFmpeg's dca, truehd and mlp decoders.
+
+The glue code (glue.c) and the build scripts are part of Leyla. The compiled
+module links FFmpeg's libavcodec and libavutil, built without --enable-gpl or
+--enable-nonfree, and is distributed under the GNU Lesser General Public
+License, version 2.1 or (at your option) any later version, as FFmpeg is. The
+licence text is in LICENSE.ffmpeg beside this file.
+
+This library is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+details.
+
+Source: FFmpeg at the tag named in build.sh (https://git.ffmpeg.org/ffmpeg.git)
+and this repository, which rebuilds the module byte for byte.
