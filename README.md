@@ -40,8 +40,8 @@ for the core only.
 ./build.sh
 ```
 
-It prints the new file's sha256 and gzip size. The module in `dist/` is the build Leyla ships; rebuilding with the
-pinned inputs gives the same decoder (`SOURCE_DATE_EPOCH=0`, path prefixes mapped). To replace the module
+It prints the new file's sha256 and gzip size. The module in `dist/` is the build Leyla ships. Rebuilding with the
+pinned inputs gives the same bytes (`SOURCE_DATE_EPOCH=0`, path prefixes mapped); checked on 2026-11-17. To replace the module
 in a running deployment, as the LGPL allows, build your own with this script
 (or any FFmpeg build exposing `glue.c`'s functions) and substitute the chunk
 that contains it.
