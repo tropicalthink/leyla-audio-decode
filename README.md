@@ -48,4 +48,4 @@ that contains it.
 
 ## Licence
 
-LGPL-2.1-or-later (`LICENSE`, `LICENSE.ffmpeg`).
+LGPL-2.1-or-later (`LICENSE`, `NOTICE`).
